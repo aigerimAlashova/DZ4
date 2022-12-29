@@ -1,16 +1,18 @@
-let add = document.getElementById('increment');
-let remome = document.getElementById('decrement');
+let add = document.querySelector('.plus');
+let remome = document.querySelector('.minus');
 
-let number = document.getElementById('number');
-let num = 0;
+let number = document.querySelector('.number');
+// let num = 0;
 
-let input = document.querySelector('input')
-    input.value = '+= 1;' 
-    let btn=document.querySelector;
+function Add (){
+   number.innerHTML ++ ;
+}
 
-    btn.add
+add.addEventListener('click' , Add)
 
+function Remome(){
+    number.innerHTML --;
+}
 
-remome.querySelector('click') 
-    integer -= 1;
-    buttom.innerHTML = integer;
+remome.addEventListener('click', Remome)
+
